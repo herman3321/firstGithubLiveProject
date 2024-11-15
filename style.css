@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1F2937;
+  }
+  a {
+    color: #E5E7EB;
+    text-decoration: none;
+  }
+  header, .quoteSection, footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+  }
+  .headerLogo {
+    font-size: 24px;
+  }
+  .headerLinks a {
+    margin: 0 1em;
+    font-size: 18px;
+  }
+
+  .heroSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    background-color: #1F2937;
+  }
+  .heroText {
+    color: #F9FAF8;
+  }
+  .heroText h1 {
+    font-size: 48px;
+    font-weight: 900;   
+  }
+  .heroText p {
+    font-size: 15px;
+    color: #E5E7EB;
+    width: 500px;
+    margin-top: -2.5em;
+    margin-bottom: 0.5em;
+  }
+  .heroText .btn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 0.5em 1.5em;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .heroImage {
+    background-color: #E5E7EB;
+    width: 370px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #1F2937;
+  }
+
+  .infoSection {
+    text-align: center;
+    padding: 2em;
+  }
+  .infoSection h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+  }
+  .infoCards {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+  }
+  .infoCard {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cardBox {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882F6;
+    background-color: #E5E7EB;
+  }
+  .cardText {
+    font-size: 14px;
+    color: #1F2937;
+    margin-top: 0.5em;
+    text-align: center;
+  }
+
+  .quoteSection {
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 2em;
+    color: #1F2937;
+    font-style: italic;
+  }
+  .quoteSection p {
+    font-size: 36px;
+    font-weight: 300;
+  }
+
+  .quoteSection span {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 600px;
+  }
+
+  .cta-section {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 2em;
+  }
+  .cta-section .btn {
+    background-color: #F9FAF8;
+    color: #1F2937;
+    padding: 0.5em 1.5em;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1em;
+  }
