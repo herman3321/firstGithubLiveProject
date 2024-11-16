@@ -125,13 +125,13 @@ body {
     padding: 2em;
   }
   .cta{
-    width: 750px;
+    width: 800px;
     height: 140px;
     background-color: #3882F6;
     text-align: center;
     padding-top: 0.5em;
     color: #F9FAF8;
-    margin-left: 7em;
+    margin-left: 12em;
     border-radius: 1em;
   }
   .cta-section .btn {
