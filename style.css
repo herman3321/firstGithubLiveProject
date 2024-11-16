@@ -121,10 +121,18 @@ body {
   }
 
   .cta-section {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    text-align: center;
+    background-color: #F9FAF8;
     padding: 2em;
+  }
+  .cta{
+    width: 750px;
+    height: 140px;
+    background-color: #3882F6;
+    text-align: center;
+    padding-top: 0.5em;
+    color: #F9FAF8;
+    margin-left: 7em;
+    border-radius: 1em;
   }
   .cta-section .btn {
     background-color: #F9FAF8;
